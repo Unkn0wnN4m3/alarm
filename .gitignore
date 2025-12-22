@@ -9,3 +9,14 @@ wheels/
 # Virtual environments
 .venv
 pyrightconfig.json
+
+# MicroPython
+*.pyc
+.micropython/
+
+# Configuración sensible
+config.py
+secrets.py
+
+# Mise
+.mise.toml.local
