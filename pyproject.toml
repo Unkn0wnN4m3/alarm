@@ -10,4 +10,13 @@ dependencies = []
 dev = [
     "basedpyright>=1.36.2",
     "ruff>=0.14.10",
+    "pre-commit>=3.0.0",
 ]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+exclude = ["lib/telegram.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
